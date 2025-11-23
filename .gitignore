@@ -1,0 +1,67 @@
+# ======================================
+# STM32CubeIDE ignore rules
+# ======================================
+
+# Build directories
+Debug/
+Release/
+**/Debug/
+**/Release/
+
+# IDE settings (Eclipse-based)
+.settings/
+.metadata/
+
+# Build artifacts
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+
+# Logs & temp
+*.log
+*.launch
+*.tmp
+*.swp
+
+# CubeMX backups
+*.ioc-backup
+
+
+# ======================================
+# Proteus ISIS / ARES ignore rules
+# ======================================
+
+# Temporary & backup files
+*.bak
+*.log
+*.tmp
+*.cache
+*.pwi
+*.pdsbak
+
+# Simulation output
+__Simulation__/
+__previews__/
+
+# Optional: ignore schematic/PCB if không chia sẻ
+#*.dsn
+#*.lyt
+#*.mdf
+#*.mdp
+
+
+# ======================================
+# OS / Editor junk files
+# ======================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# MacOS
+.DS_Store
+
+# VSCode
+.vscode/
